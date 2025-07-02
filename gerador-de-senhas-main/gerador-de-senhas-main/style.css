@@ -84,33 +84,58 @@ body{
     width: 50%;
     margin: 0 auto;
 }
-.Parametro-senha-botoes{
-display: flex;
-justify-content: center;
-}
-
-.Parametro-senha__botao{
-background-color: var(--cor-de-fundo);
-color: var(--branco);
-border: 2px solid var(--borda);
-padding: 24px;
-font-size: 24px;
-cursor: pointer;
-
-}
-.Parametro-senha__texto{
-padding: 24px;
-border-top: 2px solid var(--borda);
-border-bottom: 2px solid var(--borda);
-margin: 0px;
-font-size: 24px;
-background-color: var(--fundo-texto);
-color: var(--branco);
-border: 2px solid var(--borda);
-}
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
     }
+
+
+.parametro-senha__botao{
+    background-color: var(--fundo-texto);
+    color: var(--branco);
+    border: 2px solid var(--borda);
+    padding: 24px;
+font-size: 24px;
+cursor: pointer;
+}
+
+.parametro-senha__texto{
+    padding: 24px;
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+    margin: 0;
+    font-size: 24px;
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.botao-um{
+    width: 16%;
+}
+.numero-de-caracteres{
+    width: 16%;
+}
+.botao-tres{
+    width: 16%;
 }
